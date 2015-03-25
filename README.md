@@ -1,13 +1,13 @@
 # Jobs
 This is project jobs get issuer of job with api github using laravel 4  
 
-## Contributor
+### Contributor
 - phanstasmal
 
-## Link Issuer:
+### Link Issuer:
 [https://github.com/ruby-vietnam/job_board/issues](https://github.com/ruby-vietnam/job_board/issues)  
 
-## Screenshot
+### Screenshot
 - Open link: /
 ![image](https://github.com/phanstasmal/Jobs/blob/master/public/app/screenshot/home.JPG)
 - Open link: /job?=....
