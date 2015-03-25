@@ -32,7 +32,7 @@
                     @if($value->state == "open")
                         <div class="alert alert-info">
                             <h4>
-                                <a href="{{url().'/job?job='.$value->url}}"><i class="glyphicon glyphicon-star-empty"></i> {{$value->title}}</a>
+                                <a href="{{url().'/job?j='.$value->url}}"><i class="glyphicon glyphicon-star-empty"></i> {{$value->title}}</a>
                             </h4>
                             @foreach($value->labels as $label)
                             <label class="label" style="background-color: #{{$label->color}};">{{$label->name}}</label>
@@ -42,7 +42,7 @@
                     @else
                         <div class="alert alert-warning">
                             <h4>
-                                <a href="{{url().'/job?job='.$value->url}}"><i class="glyphicon glyphicon-star-empty"></i> {{$value->title}}</a>
+                                <a href="{{url().'/job?j='.$value->url}}"><i class="glyphicon glyphicon-star-empty"></i> {{$value->title}}</a>
                             </h4>
                             @foreach($value->labels as $label)
                                 <label class="label" style="background-color: #{{$label->color}};">{{$label->name}}</label>

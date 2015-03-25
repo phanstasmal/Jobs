@@ -22,8 +22,8 @@ class JobController extends BaseController {
 	 */
 	public function index()
 	{
-		if(Input::get('job')){
-			$linkJob = Input::get('job');
+		if(Input::get('j')){
+			$linkJob = Input::get('j');
 			$curl = curl_init();
 			curl_setopt_array($curl,array(
 				CURLOPT_URL => $linkJob,
