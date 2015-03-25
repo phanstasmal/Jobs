@@ -2,7 +2,7 @@
 This is project jobs get issuer of job with api github using laravel 4  
 
 ### Demo
-![Demo](http://jobs-sg67.rhcloud.com/)
+![http://jobs-sg67.rhcloud.com/](http://jobs-sg67.rhcloud.com/)
 
 ### Contributor
 - phanstasmal
